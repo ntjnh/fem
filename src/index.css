@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@theme {
+    --font-sans: Inter, sans-serif;
+}
+
+@layer base {
+    body {
+        @apply font-sans font-normal not-italic;    
+        font-optical-sizing: auto;
+    }
+}
